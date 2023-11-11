@@ -1,0 +1,12 @@
+{
+    "source": [
+        "/turtlebot3_laserscan"
+    ],
+    "leak": [
+    ],
+    "conduit": [],
+    "sanitizer": [],
+    "sensitive": [
+    ],
+    "mundane": []
+}

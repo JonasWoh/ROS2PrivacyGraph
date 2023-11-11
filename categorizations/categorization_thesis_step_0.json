@@ -1,0 +1,15 @@
+{
+    "source": [
+        "/robot_camera",
+        "/safety_camera"
+    ],
+    "leak": [
+
+    ],
+    "conduit": [],
+    "sanitizer": [],
+    "sensitive": [
+
+    ],
+    "mundane": []
+}

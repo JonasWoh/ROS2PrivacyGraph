@@ -1,0 +1,19 @@
+{
+    "source": [
+        "/turtlebot3_laserscan"
+    ],
+    "leak": [
+        "/local_costmap/local_costmap_rclcpp_node"
+    ],
+    "conduit": [
+        "/rviz2",
+        "/amcl_rclcpp_node",
+        "/slam_toolbox",
+        "/global_costmap/global_costmap_rclcpp_node"
+    ],
+    "sanitizer": [],
+    "sensitive": [
+        "/scan"
+    ],
+    "mundane": []
+}

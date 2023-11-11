@@ -1,0 +1,19 @@
+{
+    "source": [
+        "/robot_camera",
+        "/safety_camera"
+    ],
+    "leak": [
+        "/archive_server"
+    ],
+    "conduit": [
+        "/navigator",
+        "/emergency_stop"
+    ],
+    "sanitizer": [],
+    "sensitive": [
+        "/robot_video",
+        "/safety_video"
+    ],
+    "mundane": []
+}

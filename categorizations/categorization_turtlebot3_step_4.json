@@ -1,0 +1,29 @@
+{
+    "source": [
+        "/turtlebot3_laserscan",
+        "/local_costmap/local_costmap"
+    ],
+    "leak": [
+        "/local_costmap/local_costmap_rclcpp_node"
+    ],
+    "conduit": [
+        "/rviz2",
+        "/amcl_rclcpp_node",
+        "/slam_toolbox",
+        "/global_costmap/global_costmap_rclcpp_node",
+        "/amcl",
+        "/global_costmap/global_costmap"
+    ],
+    "sanitizer": [
+    ],
+    "sensitive": [
+        "/scan",
+        "/map"
+    ],
+    "mundane": [
+        "/tf",
+        "/FollowWaypoints",
+        "/navigate_to_pose",
+        "/global_costmap/clear_entirely_global_costmap"
+    ]
+}
